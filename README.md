@@ -19,25 +19,4 @@ This project is a Python application designed to scrape video post URLs and thei
   - `selenium`
   - `beautifulsoup4`
 
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-
-
-Install the required Python packages:
-
-bash
-Copy code
-pip install pandas selenium beautifulsoup4
-Install FFmpeg:
-
-
-2. **Repository URL**: Replace `<repository-url>` with the actual URL of your GitHub repository.
-
-3. **Repository Folder**: Replace `<repository-folder>` with the folder name where your project is cloned, if necessary.
-
-This README provides a comprehensive overview of your project, ensuring that others can easily understand h
 

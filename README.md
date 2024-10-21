@@ -10,6 +10,9 @@ This Python project automates the process of scraping video posts from Twitter/X
 - **Video and Audio Extraction**: Extracts video and audio stream URLs from network logs using browser performance logs.
 - **Video and Audio Merging**: Downloads and merges the video and audio using `ffmpeg` without re-encoding.
 
+## Twitter/X Blob Streaming Method
+- Twitter/X uses blob URLs for streaming media content. These blob URLs point to media resources fetched over HTTP. The blob method allows the browser to handle the media streams dynamically. This project leverages these network requests to extract `.m3u8` video and audio streams, which are then downloaded and merged.
+
 ## Requirements
 - Python 3.x
 - Chrome WebDriver
